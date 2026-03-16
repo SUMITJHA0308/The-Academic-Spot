@@ -25,4 +25,5 @@ dist-ssr
 
 .env
 backend/.env
+*.db
 node_modules
