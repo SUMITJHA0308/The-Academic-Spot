@@ -1,0 +1,372 @@
+/* ================= GLOBAL ================= */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter, sans-serif;
+}
+
+body{
+background:#f1f5f9;
+}
+
+/* ================= LAYOUT ================= */
+
+.dashboard{
+display:flex;
+min-height:100vh;
+background:#eef2f7;
+}
+
+/* ================= SIDEBAR ================= */
+
+.sidebar{
+width:240px;
+height:100vh;
+position:fixed;
+left:0;
+top:0;
+
+background:linear-gradient(180deg,#1e293b,#334155);
+color:white;
+padding:28px 20px;
+display:flex;
+flex-direction:column;
+gap:25px;
+box-shadow:4px 0 15px rgba(0,0,0,0.15);
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+margin-bottom:25px;
+color:#f1f5f9;
+}
+
+.sidebar ul{
+list-style:none;
+}
+
+.sidebar li{
+padding:12px 16px;
+border-radius:8px;
+cursor:pointer;
+transition:0.25s;
+color:#cbd5f5;
+font-size:15px;
+}
+
+.sidebar li:hover{
+background:#3b82f6;
+color:white;
+transform:translateX(4px);
+}
+
+/* ================= MAIN ================= */
+
+.main{
+flex:1;
+margin-left:240px;
+padding:35px;
+display:flex;
+flex-direction:column;
+gap:25px;
+}
+
+/* ================= HEADER ================= */
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.header h1{
+font-size:28px;
+color:#0f172a;
+}
+
+.header p{
+color:#64748b;
+}
+
+/* ================= INSIGHT ================= */
+
+.insightBanner{
+background:linear-gradient(120deg,#1e3a8a,#2563eb,#60a5fa);
+color:white;
+padding:22px;
+border-radius:14px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.insightBanner h3{
+font-size:18px;
+margin-bottom:6px;
+}
+
+/* ================= STATS ================= */
+
+.statsRow{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.statCard{
+background:linear-gradient(135deg,#2563eb,#1d4ed8);
+color:white;
+padding:20px;
+border-radius:14px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+transition:all 0.25s;
+}
+
+.statCard:hover{
+transform:translateY(-6px);
+box-shadow:0 15px 35px rgba(0,0,0,0.25);
+}
+
+.statCard h4{
+font-size:14px;
+}
+
+.statCard h2{
+font-size:30px;
+margin-top:6px;
+}
+
+/* ================= ANALYTICS GRID ================= */
+
+.analyticsGrid{
+
+display:grid;
+
+grid-template-columns:2fr 1fr;
+
+grid-template-areas:
+
+"recommend calendar"
+"concept tip"
+"elo mistake";
+
+gap:20px;
+
+}
+
+/* ================= CARD ================= */
+
+.card{
+background:white;
+padding:22px;
+border-radius:14px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* ================= GRID AREAS ================= */
+
+.recommend{grid-area:recommend;}
+.calendar{grid-area:calendar;}
+.concept{grid-area:concept;}
+.tip{grid-area:tip;}
+.elo{grid-area:elo;}
+.mistake{grid-area:mistake;}
+
+/* ================= AI RECOMMENDATION ================= */
+
+.aiCard{
+background:linear-gradient(135deg,#2563eb,#3b82f6,#60a5fa);
+color:white;
+border-radius:16px;
+padding:24px;
+box-shadow:0 12px 30px rgba(0,0,0,0.18);
+position:relative;
+overflow:hidden;
+}
+
+.aiCard h3{
+font-size:18px;
+margin-bottom:6px;
+}
+
+.aiCard p{
+font-size:14px;
+opacity:0.9;
+}
+
+.startQuizBtn{
+margin-top:14px;
+padding:10px 18px;
+background:white;
+color:#1e40af;
+border:none;
+border-radius:10px;
+font-weight:600;
+cursor:pointer;
+transition:0.25s;
+}
+
+.startQuizBtn:hover{
+transform:scale(1.05);
+background:#e0e7ff;
+}
+
+/* ================= STUDY TIP ================= */
+
+.study-tip-card{
+background:white;
+padding:22px;
+border-radius:14px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.start-quiz-btn{
+margin-top:14px;
+padding:12px 18px;
+background:linear-gradient(135deg,#2563eb,#1e40af);
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:600;
+}
+
+.start-quiz-btn:hover{
+background:linear-gradient(135deg,#1e40af,#1e3a8a);
+}
+
+/* ================= CONCEPT MASTERY ================= */
+
+.conceptRow{
+margin-bottom:14px;
+}
+
+.conceptHeader{
+display:flex;
+justify-content:space-between;
+font-size:14px;
+margin-bottom:5px;
+font-weight:500;
+}
+
+.progressBar{
+height:10px;
+background:#e5e7eb;
+border-radius:6px;
+overflow:hidden;
+}
+
+.progressFill{
+height:100%;
+border-radius:6px;
+transition:width 0.4s ease;
+}
+
+/* ================= MISTAKE ANALYSIS ================= */
+
+.mistakeCard{
+background:white;
+padding:22px;
+border-radius:14px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.mistakeTitle{
+font-size:17px;
+font-weight:600;
+margin-bottom:12px;
+color:#0f172a;
+}
+
+.mistakeItem{
+display:flex;
+justify-content:space-between;
+padding:6px 0;
+font-size:14px;
+color:#475569;
+}
+
+.mistakeValue{
+font-weight:600;
+color:#1e40af;
+}
+
+/* ================= CALENDAR COLORS ================= */
+
+.bestDay{
+background:#2563eb !important;
+color:white;
+border-radius:6px;
+}
+
+.practiceDay{
+background:#22c55e !important;
+color:white;
+border-radius:6px;
+}
+
+.missDay{
+background:#ef4444 !important;
+color:white;
+border-radius:6px;
+}
+
+.star{
+font-size:12px;
+display:block;
+text-align:center;
+}
+
+/* ================= CALENDAR LEGEND ================= */
+
+.calendarLegend{
+margin-top:10px;
+font-size:12px;
+display:flex;
+gap:10px;
+}
+
+.legendBox{
+display:inline-block;
+width:12px;
+height:12px;
+margin-right:5px;
+border-radius:3px;
+}
+
+.green{background:#22c55e;}
+.dark{background:#2563eb;}
+.red{background:#ef4444;}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:1200px){
+
+.statsRow{
+grid-template-columns:repeat(2,1fr);
+}
+
+.analyticsGrid{
+grid-template-columns:1fr;
+grid-template-areas:
+
+"recommend"
+"calendar"
+"concept"
+"tip"
+"elo"
+"mistake";
+}
+
+.sidebar{
+width:200px;
+}
+
+.sidebar li.active{
+background:#2563eb;
+color:white;
+font-weight:500;
+}
+
+}

@@ -1,0 +1,155 @@
+/* =========================
+   QUIZ LAYOUT
+========================= */
+
+.exam-layout {
+  min-height: 100vh;
+  padding-top: 90px;
+  background: #f4f6fb;
+}
+
+.exam-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  padding: 18px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.exam-body {
+  display: flex;
+  gap: 40px;
+  padding: 50px 60px;
+}
+
+/* =========================
+   QUESTION CARD
+========================= */
+
+.exam-main {
+  flex: 3;
+  background: white;
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.06);
+}
+
+.exam-question {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* =========================
+   OPTIONS
+========================= */
+
+.option-btn {
+  width: 100%;
+  padding: 15px 18px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.25s ease;
+}
+
+.option-btn:hover {
+  border-color: #2563eb;
+  background: #eef2ff;
+}
+
+.option-btn.selected {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: white;
+}
+
+/* =========================
+   BUTTON ROW
+========================= */
+
+.control-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.control-row button {
+  flex: 1;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.hint-btn { background: #e0f2fe; color: #0369a1; }
+.hint-btn:hover { background: #0284c7; color: white; }
+
+.skip-btn { background: #f97316; color: white; }
+.skip-btn:hover { background: #ea580c; }
+
+.save-btn { background: #16a34a; color: white; }
+.save-btn:hover { background: #15803d; }
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.exam-sidebar {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+}
+
+/* =========================
+   TIMER
+========================= */
+
+.timer-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-text {
+  position: absolute;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.timer-circle {
+  transition: stroke-dashoffset 1s linear;
+}
+
+.calendarCard{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.react-calendar{
+border:none;
+width:100%;
+}
+
+.react-calendar__tile--active{
+background:#2563eb;
+color:white;
+}

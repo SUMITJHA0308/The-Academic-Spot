@@ -1,0 +1,101 @@
+Question_No,Question,Option_A,Option_B,Option_C,Option_D,Correct_Answer,Difficulty,subject,chapter
+1,"For an ideal gas, internal energy depends only on",Temperature,Pressure,Volume,Pressure and volume,A,Easy,Physics,Current Electricity
+2,Zeroth law of thermodynamics is used to define,Heat,Work,Temperature,Entropy,C,Easy,Physics,Current Electricity
+3,Which is a state function?,Work,Heat,Entropy,Path length,C,Easy,Physics,Current Electricity
+4,Work done in an isochoric process is,Maximum,Minimum,Zero,Negative,C,Easy,Physics,Current Electricity
+5,Which process occurs at constant temperature?,Adiabatic,Isobaric,Isothermal,Isochoric,C,Easy,Physics,Current Electricity
+6,First law of thermodynamics represents conservation of,Mass,Momentum,Energy,Entropy,C,Easy,Physics,Current Electricity
+7,"In adiabatic expansion of ideal gas, temperature",Increases,Decreases,Constant,Zero,B,Easy,Physics,Current Electricity
+8,Which quantity is path dependent?,Internal energy,Entropy,Work,Pressure,C,Easy,Physics,Current Electricity
+9,SI unit of entropy is,J,J/K,K,J·K²,B,Easy,Physics,Current Electricity
+10,Area under PV curve represents,Heat,Work,Entropy,Energy loss,B,Easy,Physics,Current Electricity
+11,For ideal gas Cp − Cv equals,γ,R,0,1,B,Easy,Physics,Current Electricity
+12,Which law introduces entropy?,Zeroth,First,Second,Third,C,Easy,Physics,Current Electricity
+13,Carnot engine has maximum efficiency because it is,Fast,Slow,Reversible,Large,C,Easy,Physics,Current Electricity
+14,Efficiency of Carnot engine depends on,Gas,Volume,Temperatures,Pressure,C,Easy,Physics,Current Electricity
+15,Isochoric process is represented by which graph?,PV,PT,VT,TP,B,Easy,Physics,Current Electricity
+16,Which process has no heat exchange?,Isothermal,Adiabatic,Isobaric,Isochoric,B,Easy,Physics,Current Electricity
+17,Internal energy of ideal gas is independent of,Temperature,Pressure,Volume,Mass,C,Easy,Physics,Current Electricity
+18,"For cyclic process, change in internal energy is",Positive,Negative,Zero,Infinite,C,Easy,Physics,Current Electricity
+19,Entropy is a measure of,Energy,Work,Disorder,Heat,C,Easy,Physics,Current Electricity
+20,"At absolute zero, entropy of perfect crystal is",Maximum,Zero,Infinite,Negative,B,Easy,Physics,Current Electricity
+21,Which device converts heat into work?,Refrigerator,Heat engine,Pump,Freezer,B,Easy,Physics,Current Electricity
+22,COP of refrigerator is defined as,QH/W,QL/W,W/QH,W/QL,B,Easy,Physics,Current Electricity
+23,Which process gives maximum work?,Adiabatic,Isothermal,Isochoric,Isobaric,B,Easy,Physics,Current Electricity
+24,Slope of isothermal curve on PV diagram is,Zero,Positive,Negative,Infinite,C,Easy,Physics,Current Electricity
+25,γ for monoatomic gas is,7/5,5/3,4/3,3/2,B,Easy,Physics,Current Electricity
+26,Which quantity remains constant in isobaric process?,Pressure,Volume,Temperature,Entropy,A,Easy,Physics,Current Electricity
+27,Which law forbids 100% conversion of heat into work?,First,Second,Third,Zeroth,B,Easy,Physics,Current Electricity
+28,Entropy change in reversible process is,Positive,Negative,Zero,Infinite,C,Easy,Physics,Current Electricity
+29,Heat absorbed in isothermal expansion equals,ΔU,Work done,Entropy change,Zero,B,Easy,Physics,Current Electricity
+30,"For ideal gas free expansion, temperature",Increases,Decreases,Remains constant,Becomes zero,C,Easy,Physics,Current Electricity
+31,PV^γ = constant represents,Isothermal,Adiabatic,Isochoric,Isobaric,B,Medium,Physics,Current Electricity
+32,γ for diatomic gas is approximately,1.67,1.4,1.3,1.2,B,Medium,Physics,Current Electricity
+33,Which curve is steeper on PV diagram?,Isothermal,Adiabatic,Both same,Straight line,B,Medium,Physics,Current Electricity
+34,"In free expansion of ideal gas, work done is",Positive,Negative,Zero,Maximum,C,Medium,Physics,Current Electricity
+35,Efficiency of engine operating between T1 and T2 is,1−T1/T2,1−T2/T1,T1/T2,T2/T1,B,Medium,Physics,Current Electricity
+36,"For reversible cycle, entropy change of system is",Positive,Negative,Zero,Infinite,C,Medium,Physics,Current Electricity
+37,Which process is fastest cooling?,Isothermal,Adiabatic,Isobaric,Isochoric,B,Medium,Physics,Current Electricity
+38,Internal energy change in isothermal process is,Zero,Positive,Negative,Infinite,A,Medium,Physics,Current Electricity
+39,Entropy change of universe in irreversible process is,Zero,Negative,Positive,Infinite,C,Medium,Physics,Current Electricity
+40,Which engine cycle is idealized?,Diesel,Otto,Carnot,Brayton,C,Medium,Physics,Current Electricity
+41,Which quantity is conserved in first law?,Entropy,Heat,Energy,Temperature,C,Medium,Physics,Current Electricity
+42,"In isobaric expansion, heat supplied goes into",Work only,ΔU only,Work + ΔU,Entropy only,C,Medium,Physics,Current Electricity
+43,"For ideal gas, Cp/Cv equals",γ,R,1,0,A,Medium,Physics,Current Electricity
+44,Which statement is correct?,Heat is state function,Work is state function,Entropy is state function,All are state,C,Medium,Physics,Current Electricity
+45,Entropy change depends on,Path,Initial state,Final state,Initial & final,D,Medium,Physics,Current Electricity
+46,Which cycle uses two isothermal processes?,Otto,Diesel,Carnot,Brayton,C,Medium,Physics,Current Electricity
+47,"For adiabatic compression, temperature",Decreases,Increases,Constant,Zero,B,Medium,Physics,Current Electricity
+48,Which graph represents isobaric process?,PV,VT,PT,TP,B,Medium,Physics,Current Electricity
+49,"For monoatomic gas, degrees of freedom are",2,3,5,6,B,Medium,Physics,Current Electricity
+50,Work done is maximum in,Adiabatic,Isothermal,Isochoric,Isobaric,B,Medium,Physics,Current Electricity
+51,Second law introduces concept of,Energy,Work,Entropy,Temperature,C,Medium,Physics,Current Electricity
+52,In reversible process system is always in,Equilibrium,Non equilibrium,Vacuum,Rest,A,Medium,Physics,Current Electricity
+53,Which law defines absolute zero?,First,Second,Third,Zeroth,C,Medium,Physics,Current Electricity
+54,Entropy change in isolated system is,Zero,Negative,Positive,Constant,C,Medium,Physics,Current Electricity
+55,For real gases internal energy depends on,Temperature,Volume,Pressure,Temperature and volume,D,Medium,Physics,Current Electricity
+56,Which process is vertical line in PV diagram?,Isothermal,Adiabatic,Isochoric,Isobaric,C,Medium,Physics,Current Electricity
+57,Heat engine efficiency is always,≤1,=1,>1,0,A,Medium,Physics,Current Electricity
+58,Which process has zero work?,Isothermal,Adiabatic,Isochoric,Isobaric,C,Medium,Physics,Current Electricity
+59,Entropy is extensive property because it depends on,Path,Mass,Pressure,Temperature,B,Medium,Physics,Current Electricity
+60,Which is not a thermodynamic system?,Open,Closed,Isolated,Uniform,D,Medium,Physics,Current Electricity
+61,"For cyclic process, net heat equals",Zero,Work done,Entropy change,ΔU,B,Medium,Physics,Current Electricity
+62,Which statement is true?,Adiabatic faster than isothermal,Isothermal faster,Both same,No relation,A,Medium,Physics,Current Electricity
+63,Slope of adiabatic curve depends on,γ,R,T,P,A,Medium,Physics,Current Electricity
+64,Refrigerator works on principle of,Heat absorption,Heat rejection,Heat pump,Heat engine,C,Medium,Physics,Current Electricity
+65,Which law defines thermal equilibrium?,First,Second,Third,Zeroth,D,Medium,Physics,Current Electricity
+66,Entropy change in isothermal process is,Zero,Q/T,W/T,ΔU/T,B,Medium,Physics,Current Electricity
+67,Which process has constant pressure?,Isothermal,Adiabatic,Isobaric,Isochoric,C,Medium,Physics,Current Electricity
+68,Carnot cycle has how many processes?,2,3,4,5,C,Medium,Physics,Current Electricity
+69,Which device transfers heat from cold to hot?,Engine,Refrigerator,Turbine,Generator,B,Medium,Physics,Current Electricity
+70,For ideal gas ΔU =,nRT,nCvΔT,nCpΔT,0,B,Medium,Physics,Current Electricity
+71,"For reversible adiabatic process, entropy change is",Positive,Negative,Zero,Infinite,C,Hard,Physics,Current Electricity
+72,Maximum efficiency of engine working between T1 and T2 is,1−T2/T1,1−T1/T2,T1/T2,T2/T1,B,Hard,Physics,Current Electricity
+73,Which condition violates second law?,100% heat to work,Heat flows hot to cold,Entropy increases,Reversible process,A,Hard,Physics,Current Electricity
+74,"For free expansion of ideal gas, entropy change is",Zero,Negative,Positive,Infinite,C,Hard,Physics,Current Electricity
+75,Adiabatic curve is steeper because,No heat exchange,Less work,More heat,Constant T,A,Hard,Physics,Current Electricity
+76,Which process has minimum work?,Isothermal,Adiabatic,Isochoric,Isobaric,C,Hard,Physics,Current Electricity
+77,Entropy change of universe in reversible process is,Zero,Positive,Negative,Infinite,A,Hard,Physics,Current Electricity
+78,Which engine is impossible?,Carnot,Diesel,Otto,Perpetual motion,D,Hard,Physics,Current Electricity
+79,Which law forbids PMM-2?,First,Second,Third,Zeroth,B,Hard,Physics,Current Electricity
+80,Which law forbids PMM-1?,First,Second,Third,Zeroth,A,Hard,Physics,Current Electricity
+81,"For heat engine, which is always rejected?",Heat,Work,Entropy,Energy,A,Hard,Physics,Current Electricity
+82,Efficiency of real engine compared to Carnot is,Greater,Equal,Less,Zero,C,Hard,Physics,Current Electricity
+83,Entropy change depends on,Path,Only initial,Only final,Initial and final,D,Hard,Physics,Current Electricity
+84,Which quantity increases in irreversible process?,Energy,Work,Entropy,Temperature,C,Hard,Physics,Current Electricity
+85,Which process is quasi-static?,Fast,Very slow,Sudden,Explosive,B,Hard,Physics,Current Electricity
+86,Which is intensive property?,Entropy,Volume,Mass,Temperature,D,Hard,Physics,Current Electricity
+87,Which is extensive property?,Pressure,Temperature,Entropy,Density,C,Hard,Physics,Current Electricity
+88,For ideal gas entropy depends on,T only,V only,T and V,P only,C,Hard,Physics,Current Electricity
+89,Which law gives direction of process?,First,Second,Third,Zeroth,B,Hard,Physics,Current Electricity
+90,Reversible process is possible only when system is in,Equilibrium,Vacuum,Motion,Isolation,A,Hard,Physics,Current Electricity
+91,Entropy change of isolated system is never,Zero,Negative,Positive,Constant,B,Hard,Physics,Current Electricity
+92,Which process gives maximum entropy change?,Isothermal,Adiabatic,Free expansion,Isochoric,C,Hard,Physics,Current Electricity
+93,Which is not state variable?,Pressure,Temperature,Heat,Volume,C,Hard,Physics,Current Electricity
+94,Which law is statistical in nature?,First,Second,Third,Zeroth,B,Hard,Physics,Current Electricity
+95,Entropy is related to probability by,S=k ln W,S=W/k,S=k/W,S=W ln k,A,Hard,Physics,Current Electricity
+96,Which process has no entropy change?,Reversible adiabatic,Isothermal,Free expansion,Irreversible,A,Hard,Physics,Current Electricity
+97,Which law defines entropy at absolute zero?,First,Second,Third,Zeroth,C,Hard,Physics,Current Electricity
+98,Which process is most efficient?,Adiabatic,Isothermal,Carnot,Isochoric,C,Hard,Physics,Current Electricity
+99,Entropy change is maximum in,Reversible,Irreversible,Adiabatic,Isothermal,B,Hard,Physics,Current Electricity
+100,Which engine is theoretical standard?,Diesel,Otto,Carnot,Stirling,C,Hard,Physics,Current Electricity
