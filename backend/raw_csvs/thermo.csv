@@ -1,0 +1,101 @@
+Question_No,Question,Option_A,Option_B,Option_C,Option_D,Correct_Answer,Difficulty
+1,"For an ideal gas, internal energy depends only on",Temperature,Pressure,Volume,Pressure and volume,A,Easy
+2,Zeroth law of thermodynamics is used to define,Heat,Work,Temperature,Entropy,C,Easy
+3,Which is a state function?,Work,Heat,Entropy,Path length,C,Easy
+4,Work done in an isochoric process is,Maximum,Minimum,Zero,Negative,C,Easy
+5,Which process occurs at constant temperature?,Adiabatic,Isobaric,Isothermal,Isochoric,C,Easy
+6,First law of thermodynamics represents conservation of,Mass,Momentum,Energy,Entropy,C,Easy
+7,"In adiabatic expansion of ideal gas, temperature",Increases,Decreases,Constant,Zero,B,Easy
+8,Which quantity is path dependent?,Internal energy,Entropy,Work,Pressure,C,Easy
+9,SI unit of entropy is,J,J/K,K,J·K²,B,Easy
+10,Area under PV curve represents,Heat,Work,Entropy,Energy loss,B,Easy
+11,For ideal gas Cp − Cv equals,γ,R,0,1,B,Easy
+12,Which law introduces entropy?,Zeroth,First,Second,Third,C,Easy
+13,Carnot engine has maximum efficiency because it is,Fast,Slow,Reversible,Large,C,Easy
+14,Efficiency of Carnot engine depends on,Gas,Volume,Temperatures,Pressure,C,Easy
+15,Isochoric process is represented by which graph?,PV,PT,VT,TP,B,Easy
+16,Which process has no heat exchange?,Isothermal,Adiabatic,Isobaric,Isochoric,B,Easy
+17,Internal energy of ideal gas is independent of,Temperature,Pressure,Volume,Mass,C,Easy
+18,"For cyclic process, change in internal energy is",Positive,Negative,Zero,Infinite,C,Easy
+19,Entropy is a measure of,Energy,Work,Disorder,Heat,C,Easy
+20,"At absolute zero, entropy of perfect crystal is",Maximum,Zero,Infinite,Negative,B,Easy
+21,Which device converts heat into work?,Refrigerator,Heat engine,Pump,Freezer,B,Easy
+22,COP of refrigerator is defined as,QH/W,QL/W,W/QH,W/QL,B,Easy
+23,Which process gives maximum work?,Adiabatic,Isothermal,Isochoric,Isobaric,B,Easy
+24,Slope of isothermal curve on PV diagram is,Zero,Positive,Negative,Infinite,C,Easy
+25,γ for monoatomic gas is,7/5,5/3,4/3,3/2,B,Easy
+26,Which quantity remains constant in isobaric process?,Pressure,Volume,Temperature,Entropy,A,Easy
+27,Which law forbids 100% conversion of heat into work?,First,Second,Third,Zeroth,B,Easy
+28,Entropy change in reversible process is,Positive,Negative,Zero,Infinite,C,Easy
+29,Heat absorbed in isothermal expansion equals,ΔU,Work done,Entropy change,Zero,B,Easy
+30,"For ideal gas free expansion, temperature",Increases,Decreases,Remains constant,Becomes zero,C,Easy
+31,PV^γ = constant represents,Isothermal,Adiabatic,Isochoric,Isobaric,B,Medium
+32,γ for diatomic gas is approximately,1.67,1.4,1.3,1.2,B,Medium
+33,Which curve is steeper on PV diagram?,Isothermal,Adiabatic,Both same,Straight line,B,Medium
+34,"In free expansion of ideal gas, work done is",Positive,Negative,Zero,Maximum,C,Medium
+35,Efficiency of engine operating between T1 and T2 is,1−T1/T2,1−T2/T1,T1/T2,T2/T1,B,Medium
+36,"For reversible cycle, entropy change of system is",Positive,Negative,Zero,Infinite,C,Medium
+37,Which process is fastest cooling?,Isothermal,Adiabatic,Isobaric,Isochoric,B,Medium
+38,Internal energy change in isothermal process is,Zero,Positive,Negative,Infinite,A,Medium
+39,Entropy change of universe in irreversible process is,Zero,Negative,Positive,Infinite,C,Medium
+40,Which engine cycle is idealized?,Diesel,Otto,Carnot,Brayton,C,Medium
+41,Which quantity is conserved in first law?,Entropy,Heat,Energy,Temperature,C,Medium
+42,"In isobaric expansion, heat supplied goes into",Work only,ΔU only,Work + ΔU,Entropy only,C,Medium
+43,"For ideal gas, Cp/Cv equals",γ,R,1,0,A,Medium
+44,Which statement is correct?,Heat is state function,Work is state function,Entropy is state function,All are state,C,Medium
+45,Entropy change depends on,Path,Initial state,Final state,Initial & final,D,Medium
+46,Which cycle uses two isothermal processes?,Otto,Diesel,Carnot,Brayton,C,Medium
+47,"For adiabatic compression, temperature",Decreases,Increases,Constant,Zero,B,Medium
+48,Which graph represents isobaric process?,PV,VT,PT,TP,B,Medium
+49,"For monoatomic gas, degrees of freedom are",2,3,5,6,B,Medium
+50,Work done is maximum in,Adiabatic,Isothermal,Isochoric,Isobaric,B,Medium
+51,Second law introduces concept of,Energy,Work,Entropy,Temperature,C,Medium
+52,In reversible process system is always in,Equilibrium,Non equilibrium,Vacuum,Rest,A,Medium
+53,Which law defines absolute zero?,First,Second,Third,Zeroth,C,Medium
+54,Entropy change in isolated system is,Zero,Negative,Positive,Constant,C,Medium
+55,For real gases internal energy depends on,Temperature,Volume,Pressure,Temperature and volume,D,Medium
+56,Which process is vertical line in PV diagram?,Isothermal,Adiabatic,Isochoric,Isobaric,C,Medium
+57,Heat engine efficiency is always,≤1,=1,>1,0,A,Medium
+58,Which process has zero work?,Isothermal,Adiabatic,Isochoric,Isobaric,C,Medium
+59,Entropy is extensive property because it depends on,Path,Mass,Pressure,Temperature,B,Medium
+60,Which is not a thermodynamic system?,Open,Closed,Isolated,Uniform,D,Medium
+61,"For cyclic process, net heat equals",Zero,Work done,Entropy change,ΔU,B,Medium
+62,Which statement is true?,Adiabatic faster than isothermal,Isothermal faster,Both same,No relation,A,Medium
+63,Slope of adiabatic curve depends on,γ,R,T,P,A,Medium
+64,Refrigerator works on principle of,Heat absorption,Heat rejection,Heat pump,Heat engine,C,Medium
+65,Which law defines thermal equilibrium?,First,Second,Third,Zeroth,D,Medium
+66,Entropy change in isothermal process is,Zero,Q/T,W/T,ΔU/T,B,Medium
+67,Which process has constant pressure?,Isothermal,Adiabatic,Isobaric,Isochoric,C,Medium
+68,Carnot cycle has how many processes?,2,3,4,5,C,Medium
+69,Which device transfers heat from cold to hot?,Engine,Refrigerator,Turbine,Generator,B,Medium
+70,For ideal gas ΔU =,nRT,nCvΔT,nCpΔT,0,B,Medium
+71,"For reversible adiabatic process, entropy change is",Positive,Negative,Zero,Infinite,C,Hard
+72,Maximum efficiency of engine working between T1 and T2 is,1−T2/T1,1−T1/T2,T1/T2,T2/T1,B,Hard
+73,Which condition violates second law?,100% heat to work,Heat flows hot to cold,Entropy increases,Reversible process,A,Hard
+74,"For free expansion of ideal gas, entropy change is",Zero,Negative,Positive,Infinite,C,Hard
+75,Adiabatic curve is steeper because,No heat exchange,Less work,More heat,Constant T,A,Hard
+76,Which process has minimum work?,Isothermal,Adiabatic,Isochoric,Isobaric,C,Hard
+77,Entropy change of universe in reversible process is,Zero,Positive,Negative,Infinite,A,Hard
+78,Which engine is impossible?,Carnot,Diesel,Otto,Perpetual motion,D,Hard
+79,Which law forbids PMM-2?,First,Second,Third,Zeroth,B,Hard
+80,Which law forbids PMM-1?,First,Second,Third,Zeroth,A,Hard
+81,"For heat engine, which is always rejected?",Heat,Work,Entropy,Energy,A,Hard
+82,Efficiency of real engine compared to Carnot is,Greater,Equal,Less,Zero,C,Hard
+83,Entropy change depends on,Path,Only initial,Only final,Initial and final,D,Hard
+84,Which quantity increases in irreversible process?,Energy,Work,Entropy,Temperature,C,Hard
+85,Which process is quasi-static?,Fast,Very slow,Sudden,Explosive,B,Hard
+86,Which is intensive property?,Entropy,Volume,Mass,Temperature,D,Hard
+87,Which is extensive property?,Pressure,Temperature,Entropy,Density,C,Hard
+88,For ideal gas entropy depends on,T only,V only,T and V,P only,C,Hard
+89,Which law gives direction of process?,First,Second,Third,Zeroth,B,Hard
+90,Reversible process is possible only when system is in,Equilibrium,Vacuum,Motion,Isolation,A,Hard
+91,Entropy change of isolated system is never,Zero,Negative,Positive,Constant,B,Hard
+92,Which process gives maximum entropy change?,Isothermal,Adiabatic,Free expansion,Isochoric,C,Hard
+93,Which is not state variable?,Pressure,Temperature,Heat,Volume,C,Hard
+94,Which law is statistical in nature?,First,Second,Third,Zeroth,B,Hard
+95,Entropy is related to probability by,S=k ln W,S=W/k,S=k/W,S=W ln k,A,Hard
+96,Which process has no entropy change?,Reversible adiabatic,Isothermal,Free expansion,Irreversible,A,Hard
+97,Which law defines entropy at absolute zero?,First,Second,Third,Zeroth,C,Hard
+98,Which process is most efficient?,Adiabatic,Isothermal,Carnot,Isochoric,C,Hard
+99,Entropy change is maximum in,Reversible,Irreversible,Adiabatic,Isothermal,B,Hard
+100,Which engine is theoretical standard?,Diesel,Otto,Carnot,Stirling,C,Hard
