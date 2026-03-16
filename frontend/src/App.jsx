@@ -4,7 +4,6 @@ import { Routes, Route, Navigate } from "react-router-dom";
 /* ================= STUDENT PAGES ================= */
 
 import Login from "./pages/Login";
-import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Quiz from "./pages/Quiz";
 import Mock from "./pages/Mock";
@@ -30,7 +29,7 @@ function App() {
       {/* ================= AUTH ================= */}
 
       <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
+     
 
       {/* ================= STUDENT ================= */}
 
