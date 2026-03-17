@@ -29,10 +29,11 @@ const [studyTip,setStudyTip] = useState({})
 
 useEffect(()=>{
 
-/* ===== FETCH PROFILE FROM BACKEND ===== */
+/* ================= FETCH PROFILE ================= */
 
-axios.get(`${API}/student/profile?student_id=1`)
-.then(res=>{
+axios
+.get(`${API}/student/profile?student_id=1`)
+.then(res => {
 
 const data = res.data
 
@@ -40,17 +41,17 @@ setProfile({
 name:"Scholar",
 elo_rating:data.elo_rating,
 accuracy:data.accuracy,
-streak:0,
 total_attempts:data.total_attempts,
-classification:data.current_level
+current_level:data.current_level,
+streak:0
 })
 
 })
 .catch(err=>{
-console.log("profile api error",err)
+console.log("Profile API error",err)
 })
 
-/* ===== STATIC ANALYTICS DATA ===== */
+/* ================= STATIC DATA ================= */
 
 setEloHistory([
 {attempt:1,elo:1000},
@@ -89,15 +90,23 @@ tip:"Students with 1100 ELO improve accuracy by practicing Electrostatics daily"
 
 },[])
 
+/* ================= LOADING ================= */
+
 if(!profile){
-return <div>Loading Dashboard...</div>
+return <div style={{padding:"40px"}}>Loading Dashboard...</div>
 }
+
+/* ================= UI ================= */
 
 return(
 
 <div className="dashboard">
 
+{/* SIDEBAR */}
+
 <Sidebar/>
+
+{/* MAIN */}
 
 <div className="main">
 
@@ -105,12 +114,14 @@ return(
 
 <InsightBanner insight={insight}/>
 
+{/* ================= STATS ================= */}
+
 <div className="statsRow">
 
 <StatCard
 title="ELO Rating"
 value={profile.elo_rating}
-subtitle={profile.classification}
+subtitle={profile.current_level}
 />
 
 <StatCard
@@ -133,27 +144,41 @@ subtitle="Total Practice"
 
 </div>
 
+{/* ================= ANALYTICS ================= */}
+
 <div className="analyticsGrid">
+
+{/* AI Recommendation */}
 
 <div className="card">
 <AIRecommendation data={recommendation}/>
 </div>
 
+{/* Practice Calendar */}
+
 <div className="card">
 <PracticeCalendar/>
 </div>
+
+{/* Concept Mastery */}
 
 <div className="card">
 <ConceptMastery data={concepts}/>
 </div>
 
+{/* Study Tip */}
+
 <div className="card">
 <StudyTip data={studyTip}/>
 </div>
 
+{/* ELO Progress */}
+
 <div className="card">
 <EloChart data={eloHistory}/>
 </div>
+
+{/* Mistake Analysis */}
 
 <div className="card">
 <MistakeAnalysis data={mistakes}/>
