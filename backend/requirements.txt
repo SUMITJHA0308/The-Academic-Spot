@@ -12,3 +12,4 @@ requests
 email-validator
 reportlab
 groq
+pandas
