@@ -3,7 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://the-academic-spot.onrender.com";
 
 function Login() {
 

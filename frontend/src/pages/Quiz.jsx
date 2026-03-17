@@ -7,7 +7,7 @@ import {
   Target, CheckCircle, LogOut, Home, Zap, X, Lock, Unlock
 } from "lucide-react";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://the-academic-spot.onrender.com";
 const TOTAL_QUESTIONS = 20;
 
 function Quiz() {

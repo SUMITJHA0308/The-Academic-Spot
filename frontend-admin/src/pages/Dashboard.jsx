@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:8000"; // change if deployed
+const API = "https://the-academic-spot.onrender.com"; // change if deployed
 
 const Dashboard = () => {
   const [files, setFiles] = useState([]);
