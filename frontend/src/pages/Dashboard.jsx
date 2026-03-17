@@ -31,22 +31,33 @@ useEffect(()=>{
 
 /* ===== FETCH PROFILE FROM BACKEND ===== */
 
-axios.get(`${API}/profile`)
+axios.get(`${API}/student/profile?student_id=1`)
 .then(res=>{
-setProfile(res.data)
+
+const data = res.data
+
+setProfile({
+name:"Scholar",
+elo_rating:data.elo_rating,
+accuracy:data.accuracy,
+streak:0,
+total_attempts:data.total_attempts,
+classification:data.current_level
+})
+
 })
 .catch(err=>{
 console.log("profile api error",err)
 })
 
-/* ===== बाकी चीजें static ===== */
+/* ===== STATIC ANALYTICS DATA ===== */
 
 setEloHistory([
 {attempt:1,elo:1000},
-{attempt:2,elo:1030},
-{attempt:3,elo:1060},
-{attempt:4,elo:1090},
-{attempt:5,elo:1115}
+{attempt:2,elo:1020},
+{attempt:3,elo:1050},
+{attempt:4,elo:1070},
+{attempt:5,elo:1080}
 ])
 
 setConcepts([
@@ -79,7 +90,7 @@ tip:"Students with 1100 ELO improve accuracy by practicing Electrostatics daily"
 },[])
 
 if(!profile){
-return <div>Loading...</div>
+return <div>Loading Dashboard...</div>
 }
 
 return(
@@ -158,4 +169,4 @@ subtitle="Total Practice"
 
 }
 
-export default Dashboard
+export default Dashboard;
