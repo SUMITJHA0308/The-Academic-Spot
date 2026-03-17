@@ -24,6 +24,7 @@ dist-ssr
 *.sw?
 
 .env
+<<<<<<< HEAD
 .env.local
 .env.*
 backend/.env
@@ -31,3 +32,8 @@ backend/.env
 node_modules
 __pycache__
 venv/
+=======
+backend/.env
+*.db
+node_modules
+>>>>>>> 475c01844ba79fb4a74886c2786a9968857215fd

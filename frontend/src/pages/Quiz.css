@@ -135,6 +135,7 @@
 
 .timer-circle {
   transition: stroke-dashoffset 1s linear;
+
 }
 
 .calendarCard{
@@ -152,4 +153,5 @@ width:100%;
 .react-calendar__tile--active{
 background:#2563eb;
 color:white;
+
 }

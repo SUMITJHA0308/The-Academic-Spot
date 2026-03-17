@@ -184,7 +184,11 @@ function Quiz() {
         return updated;
       });
 
-      
+
+      setTimeout(() => {
+        setShowHintModal(false);
+      }, 4000);
+
     } catch (err) {
       console.log(err);
     }
@@ -291,7 +295,11 @@ const handleFinalSubmit = async () => {
           <button onClick={() => navigate("/dashboard")} style={navButtonStyle}>
             <Home size="1.3vw" />
           </button>
+
           <h1 style={{ margin: 0, color: "white", fontSize: "1.4vw", fontWeight: "900" }}>The Academic Spot</h1>
+
+          <h1 style={{ margin: 0, color: "white", fontSize: "1.4vw", fontWeight: "900" }}>Quiz Arena</h1>
+
         </div>
 
         <div style={headerStatBoxStyle}>
