@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "../styles/dashboard.css"
+import "../styles/dashboard.css";
 
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
@@ -29,29 +29,17 @@ const [studyTip,setStudyTip] = useState({})
 
 useEffect(()=>{
 
-/* ================= FETCH PROFILE ================= */
+/* ===== FETCH PROFILE FROM BACKEND ===== */
 
 axios.get(`${API}/profile`)
 .then(res=>{
 setProfile(res.data)
 })
 .catch(err=>{
-console.log(err)
-
-/* fallback demo data */
-
-setProfile({
-name:"Scholar",
-elo_rating:1115,
-accuracy:45.95,
-streak:0,
-total_attempts:37,
-classification:"Professional Level"
+console.log("profile api error",err)
 })
 
-})
-
-/* ================= STATIC DATA (same as before) ================= */
+/* ===== बाकी चीजें static ===== */
 
 setEloHistory([
 {attempt:1,elo:1000},
