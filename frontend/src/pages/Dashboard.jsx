@@ -14,7 +14,7 @@ import EloChart from "../components/EloChart";
 import StudyTip from "../components/StudyTip";
 import PracticeCalendar from "../components/PracticeCalendar";
 
-const API = "https://the-academic-spot.onrender.com";
+const API = "https://the-academic-spot-2.onrender.com";
 
 function Dashboard(){
 

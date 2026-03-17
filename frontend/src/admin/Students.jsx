@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from "react";
 import axios from "axios";
 
-const API="https://the-academic-spot.onrender.com";
+const API="https://the-academic-spot-2.onrender.com";
 
 function StudentsAnalytics(){
 

@@ -6,7 +6,7 @@ import {
   TrendingUp, LogOut, Zap, Target, BookOpen, TrendingDown, Flame, Activity
 } from "lucide-react";
 
-const API = "https://the-academic-spot.onrender.com";
+const API = "https://the-academic-spot-2.onrender.com";
 
 // ===== RANK PREDICTION FUNCTION =====
 function predictRank(userScore, maxScore, attempts) {
