@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "../styles/dashboard.css"
 
 import Sidebar from "../components/Sidebar";
@@ -13,9 +14,12 @@ import EloChart from "../components/EloChart";
 import StudyTip from "../components/StudyTip";
 import PracticeCalendar from "../components/PracticeCalendar";
 
+const API = "https://the-academic-spot.onrender.com";
+
 function Dashboard(){
 
 const [profile,setProfile] = useState(null)
+
 const [eloHistory,setEloHistory] = useState([])
 const [concepts,setConcepts] = useState([])
 const [mistakes,setMistakes] = useState({})
@@ -25,7 +29,16 @@ const [studyTip,setStudyTip] = useState({})
 
 useEffect(()=>{
 
-/* ================= PROFILE ================= */
+/* ================= FETCH PROFILE ================= */
+
+axios.get(`${API}/profile`)
+.then(res=>{
+setProfile(res.data)
+})
+.catch(err=>{
+console.log(err)
+
+/* fallback demo data */
 
 setProfile({
 name:"Scholar",
@@ -36,7 +49,9 @@ total_attempts:37,
 classification:"Professional Level"
 })
 
-/* ================= ELO HISTORY ================= */
+})
+
+/* ================= STATIC DATA (same as before) ================= */
 
 setEloHistory([
 {attempt:1,elo:1000},
@@ -46,8 +61,6 @@ setEloHistory([
 {attempt:5,elo:1115}
 ])
 
-/* ================= CONCEPT MASTERY ================= */
-
 setConcepts([
 {topic:"Mechanics",mastery:82},
 {topic:"Thermodynamics",mastery:54},
@@ -55,29 +68,21 @@ setConcepts([
 {topic:"Modern Physics",mastery:71}
 ])
 
-/* ================= MISTAKE ANALYSIS ================= */
-
 setMistakes({
 concept_errors:35,
 calculation_errors:40,
 formula_errors:25
 })
 
-/* ================= AI RECOMMENDATION ================= */
-
 setRecommendation({
 topic:"Electrostatics",
 elo_gain:40
 })
 
-/* ================= INSIGHT ================= */
-
 setInsight({
 message:"Your accuracy improved but Electrostatics performance dropped",
 improvement:8
 })
-
-/* ================= STUDY TIP ================= */
 
 setStudyTip({
 tip:"Students with 1100 ELO improve accuracy by practicing Electrostatics daily"
@@ -93,19 +98,13 @@ return(
 
 <div className="dashboard">
 
-{/* ===== SIDEBAR ===== */}
-
 <Sidebar/>
-
-{/* ===== MAIN AREA ===== */}
 
 <div className="main">
 
 <Header profile={profile}/>
 
 <InsightBanner insight={insight}/>
-
-{/* ===== STATS ROW ===== */}
 
 <div className="statsRow">
 
@@ -135,41 +134,27 @@ subtitle="Total Practice"
 
 </div>
 
-{/* ===== ANALYTICS GRID ===== */}
-
 <div className="analyticsGrid">
-
-{/* AI Recommendation */}
 
 <div className="card">
 <AIRecommendation data={recommendation}/>
 </div>
 
-{/* Practice Calendar (Mistake Analysis की जगह) */}
-
 <div className="card">
 <PracticeCalendar/>
 </div>
-
-{/* Concept Mastery (ELO Progress की जगह) */}
 
 <div className="card">
 <ConceptMastery data={concepts}/>
 </div>
 
-{/* Study Tip */}
-
 <div className="card">
 <StudyTip data={studyTip}/>
 </div>
 
-{/* ELO Progress (Concept Mastery की जगह) */}
-
 <div className="card">
 <EloChart data={eloHistory}/>
 </div>
-
-{/* Mistake Analysis (Calendar की जगह) */}
 
 <div className="card">
 <MistakeAnalysis data={mistakes}/>
